@@ -12,7 +12,7 @@ const inventory = require("../Models/inventory");
 const product = require("../Models/productmaster");
 
 const db =
-  "mongodb+srv://Sa-user1:SA1234567@cluster0.kjen7.mongodb.net/StoreManagement?retryWrites=true&w=majority";
+  "mongodb+srv://<User-Name>:<Password>@cluster0.kjen7.mongodb.net/StoreManagement?retryWrites=true&w=majority";
 
 mongoose.connect(db, (err) => {
   if (err) {
